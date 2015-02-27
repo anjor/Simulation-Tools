@@ -1,0 +1,16 @@
+!!!!!!
+! BIG COMMENT HERE
+!!!!!
+&dev
+  devid = 2 ! Pick a device id
+/
+&algo
+  debug = 0 ! Set 1 for debug
+  restart = 0
+  rest = ALF
+  linonly = 0
+  nwrite = 10
+  nforce = 1
+  maxdt = .1
+  cfl = .1
+/
